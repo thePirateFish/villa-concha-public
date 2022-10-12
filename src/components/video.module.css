@@ -1,0 +1,12 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    overflow: hidden;
+    height: 100%;
+
+    @media(--media-max-small) {
+        height: auto;
+    }
+
+}

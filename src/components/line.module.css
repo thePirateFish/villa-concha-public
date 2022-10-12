@@ -1,0 +1,8 @@
+.line {
+    height: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:#666;
+    opacity: .3;
+    border: 0 none;
+}

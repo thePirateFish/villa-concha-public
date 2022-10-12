@@ -1,0 +1,24 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.subtitle {
+    font-family: "HelveticaNeueCyr-Light";
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+.large {
+    font-size: 16px;
+  }
+
+  .gold {
+    color: rgb(189, 138, 90);
+  }
+  
+  .white {
+    color: white;
+  }
+
+  .black {
+    color: black;
+  }

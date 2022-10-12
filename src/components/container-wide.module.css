@@ -1,0 +1,14 @@
+@import '../styles/custom-media.css';
+
+.root {
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+
+  @media(--media-max-small) {
+      margin-left: 2%;
+      margin-right: 2%;
+
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+  }
+}

@@ -1,0 +1,72 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.title {
+    font-family: "Cinzel";
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+  }
+  
+.large {
+  font-size: 5vw;
+
+  @media(--media-max-large) {
+    font-size: 5vw;
+  }
+
+  @media(--media-max-small) {
+      font-size: 35px;
+  }
+}
+
+.medium {
+  font-size: 30px;
+
+
+
+  @media(--media-max-small) {
+      font-size: 20px;
+  }
+}
+
+.small {
+  font-size: 21px;
+
+  @media(--media-max-small) {
+      font-size: 15px;
+  }
+}
+
+.medLarge {
+  font-size: 4vw;
+
+  @media(--media-max-large) {
+    font-size: 50px;
+  }
+
+  @media(--media-max-small) {
+      font-size: 35px;
+  }
+}
+
+.gold {
+  color: rgb(189, 138, 90);
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, white 50%, rgb(189, 138, 90) 50%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

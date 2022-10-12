@@ -1,0 +1,13 @@
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: Lato;
+}
+
+.icon {
+    position: relative;
+}

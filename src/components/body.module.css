@@ -1,0 +1,47 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.body {
+    text-align: center;
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    @nest & ul {
+      list-style: outside;
+      text-align: left;
+      padding: 0;
+    }
+}
+
+.large {
+  font-family: "HelveticaNeueCyr-Light";
+  text-align: center;
+  font-size: 16px;
+
+  @media(--media-max-large) {
+    font-size: 14px;
+  }
+  
+  @media(--media-max-small) {
+      font-size: 12px;
+      padding-bottom: 15px;
+  }
+}
+
+.small {
+  font-size: 14px;
+  
+  @media(--media-max-small) {
+      font-size: 12px;
+  }
+}
+
+.gold {
+  color: rgb(189, 138, 90);
+}
+
+.white {
+  color: white;
+}

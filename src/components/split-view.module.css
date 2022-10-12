@@ -1,0 +1,44 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+
+    @media(--media-max-large) {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    @media(--media-max-large) {
+        width: 100%;
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    @media(--media-max-large) {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    } 
+}
+
+
+  
+

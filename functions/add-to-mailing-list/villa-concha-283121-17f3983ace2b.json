@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "villa-concha-283121",
+  "private_key_id": "17f3983ace2be2c4efbc80656ffa82ca959487e5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMxHxc0IjHaJug\nm0rv5Z6CkFogTisRiYO5bxY90rgh/8lJ8m+ru6/AgowS0lU6xJLBLpB/AT2TW+7n\nP6PYC+2WdZkyABbsNl8mn+oZRyEkqgbzdd3hK+5eG9rYA8hL/l6pJfRuW7ravlhh\nNQW+iz2hMMHtKBR0XNT6wI2n75zUyPQzN0OBD8gBhVngDMnoq/J8UoGuW3h2m8sZ\nNyXR5or4mXJroLgYoIpJ6NHJD2cgp9A8n43CgrVUOUWxylYDMD8zep9rJWby1dlv\nM5DPGmbtBRDgOXBZqXY+xY+kiUhXcEQj6+LLLIwdXX3LbeprajXrenz6A+uN8q2t\nVovG80ELAgMBAAECggEASnBJZ3JVruwr2zRpBxHZ0EwKv4C7LmpnzPMBymK+lnmG\nos+z4eHej+TFaBg3bKBGW10CoXEBgf7jOATOGr2nVtGUafVXX/KaH4/1yc+uUEZR\nNZNNIEzYoDSPF4U0fM/ReLs4AyBsqpWUym28k1rKAj2X2g9+dBjFQgza0kiMoltu\neoJOZDFB2velE8NZK9rRvVeyZZ5iCclWdViU5RLRia8UwURhogCGzObebu2rLMmH\nuDecaKk32GX8WeV3qCGsBnB5qVSgCPl/2Myldb9X/6rGyL7t9TtH87jtSJWQCk5B\nBXkBvH6by0K9VW6uK70lprcoKOE1yI0t75q5x3woOQKBgQD0m8SrON14w+EKYd8+\n3h0i+64csVyQfICkCnc10supN1DiPHWr9QQgcrFOuSTmNU8xDbFL829/QHCDTTKI\neskdj0fuzOsVlm1bOp8mQoprjTKzjCVt7PExPz8wdQ12FidE6QzTlPgxHKcuLtHy\n8w0zUMcQR1OR+SUcYUb+A8JZ4wKBgQDWTbty2zo5D2kST3rZuJk/oJrFAR0PnUYd\nYopscNtyNWlPXB6RYaAcpyxNEyu1wQ+7PIqWlf61kX0+lnPt5txZfRR3xGAuHDG5\n9jsGFQuTkH1GBZI1y8Om8kQ9e6BIsMOMXyQ+66v8CamercONEPgdEOEM3F2dfQYw\nk35OY+BEuQKBgQDERUC3SreasUGfPQ0OutaSPXRlnYLyhJQMDEG/NFcqfjIudejN\ng5o+Fwlia3jKJzhV2fDLSpfKeYBOOuEzVaKOT2uel1qCReOVciJFZtr+lZt7KhbW\nb2rQ4zjmvuWAPSJhTsZ193B2p9EVY4ge8xtCc6xmyXSrCkjWzs9R/t4xlQKBgQDH\nJOLtH8XiImzshAlQa1eVpgRMz/UWfnsacWjazqFOZ03eXmdViBgGqF7lnMwAkVCy\nGNdcijRwu6tcTumaCO95BV/Q0B7kmnSnL6a3xzTDwwB24lR1Q04kRHufetN+2SxO\ntFb1VYGzq7MA7s6Kt1spf3bywZEI+ZaX62fzJqLQmQKBgFQxvSNXC5HWxGVvOrbv\nrkiTEu3QrYUMc7dNlNpk+ZM6t9ZFE0zUOuAIlVQEiNdL4xmDkkhT73uKrn2ZAggS\n3AQf//TKclRoe517TC+ADKt5IQ/KoxpkY9YFmfe3nV9NWuEsTH7pydZQyCfhPrYL\nQBj+ZhbCRcvxDTdDHtrQOuAY\n-----END PRIVATE KEY-----\n",
+  "client_email": "mailing-list-service-acct@villa-concha-283121.iam.gserviceaccount.com",
+  "client_id": "117817258229751197181",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mailing-list-service-acct%40villa-concha-283121.iam.gserviceaccount.com"
+}

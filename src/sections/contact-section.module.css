@@ -1,0 +1,53 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.tableWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    line-height: 2;
+    white-space: nowrap;
+}
+
+.leftCol {
+    flex: .25;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    min-height: 100%;
+
+}
+
+.iconText {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 18px;
+}
+
+.tableHeader {
+    margin-left: 10px;
+}
+
+.rightCol {
+    flex: .25;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.rightCol > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+}
+

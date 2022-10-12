@@ -1,0 +1,61 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+
+    @media(--media-max-large) {
+        max-width: 100%;
+      }
+}
+
+.titleBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    font-family: "Cinzel";
+    font-size: 20px;
+    text-align: left;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.bodySection {
+    margin: 20px 5% 20px 5%;
+    transition: height .5s ease, opacity .5s ease 200ms;
+    height: 20vh;
+    opacity: 1;
+
+    @media(--media-max-small) {
+        height: 30vh;
+      }
+}
+
+.bodySectionHidden {
+    height: 0px;
+    min-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.body {
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+    line-height: 2;
+    transition: all 1s ease;
+}
+
+.bodyHidden {
+    height: 0px;
+    transition: all 1s ease;
+}

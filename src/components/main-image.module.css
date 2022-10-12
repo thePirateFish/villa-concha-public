@@ -1,0 +1,50 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+
+    @media(--media-max-small) {
+        height: 100vh;
+    }
+    
+}
+
+.picture {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    @media(--media-max-small) {
+        width: auto;
+        height: 100vh;
+    }
+}
+
+.children {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate3d(-50%, -50%, 0);
+    text-overflow: ellipsis;
+    white-space: nowrap;    
+
+    @media(--media-max-small) {
+        top: 10%;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 75% 0%;
+
+    @media(--media-max-small) {
+        object-position: 30% 0%;
+    }
+}

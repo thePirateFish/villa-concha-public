@@ -1,0 +1,12 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.map {
+    width: 100%;
+    min-height: 325px;
+    height: 40vh;
+
+    @media(--media-max-small) {
+        min-height: 200px;
+    }
+}

@@ -1,0 +1,23 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.colItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10vh 3vw 10vh 3vw;
+    @media(--media-max-large) {
+        flex-direction: column;
+        align-items: center;
+        margin: 10vh 1vw 10vh 1vw;
+      }
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+
+    @media(--media-max-large) {
+        max-width: 100%;
+        align-items: center;
+      }
+}

@@ -1,0 +1,165 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.root {
+  position: fixed;
+  display: 'block';
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  height: 100px;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  height: 100%;
+
+  @media(--media-max-large) {
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  width: 246px;
+  object-fit: contain;
+  object-position: 50% 50%;
+
+  @media(--media-max-large) {
+    width: 180px;
+}
+}
+
+.branding {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  flex: .25;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.toggleNavButton {
+  appearance: none;
+  font-size: 35px;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: calc(14 / 17 / 2 * 1rem);
+  outline: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (--media-min-large) {
+    display: none;
+  }
+}
+.link {
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.navLinkActive {
+  @media (--media-max-large) {
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
+    
+  }
+  border-bottom: 2px solid rgb(189, 138, 90, 0.7);
+}
+
+.nav {
+  display: none;
+  flex: .75;
+  font-family: "HelveticaNeueCyr";
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  @nest & ul li {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+
+  @nest & ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  @nest & ul li a {
+    display: block;
+    color: #4a4a4a;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  @media (hover: hover) {
+    @nest & ul li a:hover {
+      color: rgb(189, 138, 90);
+    }
+  }
+
+  @media (--media-max-large) {
+    position: absolute;
+    background: var(--color-white);
+    color: var(--color-black);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    left: 0;
+    right: 0;
+    top: 4.3rem;
+
+    @nest & ul {
+      padding: 1rem 0;
+    }
+
+    @nest & ul li a {
+      padding: 0.5rem 1.5rem;
+    }
+  }
+
+  @media (--media-min-large) {
+    display: block;
+
+    @nest & ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      display: table;
+      width: 100%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    @nest & ul li {
+      display: table-cell;
+      text-align: center;
+    }
+
+    @nest & ul li a {
+      padding: 0.5rem 0.2rem 0rem 0.2rem;
+    }
+  }
+}
+
+.showNav {
+  display: block;
+}

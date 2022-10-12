@@ -1,0 +1,21 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+
+    @media(--media-max-large) {
+        display: none;
+    }
+}
+
+.row {
+    flex: 1;
+    flex-grow: 1;
+    height: 100%;
+    margin: 20px 10px 20px 10px;
+    
+}

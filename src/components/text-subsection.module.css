@@ -1,0 +1,26 @@
+@import '../styles/custom-media.css';
+@import '../styles/custom-properties.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 20px 0 20px 0;
+
+    @media(--media-max-large) {
+        margin: 20px 0 20px 0;
+    }
+}
+
+.children {
+    padding-bottom: 20px;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
